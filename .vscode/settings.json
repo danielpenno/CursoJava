@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "sintaxe-basica/src",
+        "sintaxe-variaveis-e-fluxo/src"
+    ]
+}
