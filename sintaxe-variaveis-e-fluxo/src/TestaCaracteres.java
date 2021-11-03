@@ -8,8 +8,8 @@ public class TestaCaracteres{
         char valor = 65;                    // Compila!
         System.out.println(valor);
 
-        //valor = (char) (valor + 1);         // Não compila!
-        //System.out.println(valor);
+        valor = (char) (valor + 1);         // Compila!
+        System.out.println(valor);
 
         String palavra = "alura cursos online de tecnologia";
         System.out.println(palavra);
