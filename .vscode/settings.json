@@ -2,6 +2,9 @@
     "java.project.sourcePaths": [
         "sintaxe-basica/src",
         "sintaxe-variaveis-e-fluxo/src",
-        "bytebank/src"
+        "bytebank/src",
+        "bytebank-encapsulado/src",
+        "bytebank-herdado/src",
+        "bytebank-herdado-conta/src"
     ]
 }
