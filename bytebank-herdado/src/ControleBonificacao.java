@@ -1,6 +1,5 @@
 
 public class ControleBonificacao {
-	
 	private double soma;
 	
 	public void registra(Funcionario f) {
@@ -11,5 +10,4 @@ public class ControleBonificacao {
 	public double getSoma() {
 		return soma;
 	}
-
 }

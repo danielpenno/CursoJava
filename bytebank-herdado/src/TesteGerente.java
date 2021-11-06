@@ -1,8 +1,5 @@
-
 public class TesteGerente {
-
 	public static void main(String[] args) {
-		
 		Autenticavel referencia = new Cliente();
 		
 		Gerente g1 = new Gerente();
@@ -20,7 +17,5 @@ public class TesteGerente {
 		System.out.println(autenticou);
 		
 		System.out.println(g1.getBonificacao());
-
 	}
-
 }
