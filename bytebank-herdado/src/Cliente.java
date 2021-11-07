@@ -1,4 +1,3 @@
-
 public class Cliente implements Autenticavel {
 	private AutenticacaoUtil autenticador;
 	

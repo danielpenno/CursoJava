@@ -1,6 +1,5 @@
 {
     "java.project.sourcePaths": [
-        "bytebank-encapsulado/src",
-        "bytebank-herdado/src"
+        "bytebank-herdado-conta"
     ]
 }
