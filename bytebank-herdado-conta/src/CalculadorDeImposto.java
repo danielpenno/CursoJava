@@ -1,4 +1,6 @@
+
 public class CalculadorDeImposto {
+	
 	private double totalImposto;
 	
 	public void registra(Tributavel t) {
@@ -9,4 +11,5 @@ public class CalculadorDeImposto {
 	public double getTotalImposto() {
 		return totalImposto;
 	}
+
 }
