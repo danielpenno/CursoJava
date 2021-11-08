@@ -1,6 +1,4 @@
-
-public class Conexao implements AutoCloseable{
-	
+public class Conexao implements AutoCloseable {
 	public Conexao() {
 		System.out.println("Abrindo conexao");
 		throw new IllegalStateException();
@@ -11,9 +9,8 @@ public class Conexao implements AutoCloseable{
 		throw new IllegalStateException();
 	}
 
-	@Override 
-	public void close() { 
+	@Override
+	public void close() {
 		System.out.println("Fechando conexao");
-		
 	}
 }

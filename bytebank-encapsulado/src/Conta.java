@@ -29,10 +29,10 @@ public class Conta {
 
     public boolean transfere(double valor, Conta destino) {
         if (this.saca(valor)) {
-        		destino.deposita(valor);
-        		return true;
+            destino.deposita(valor);
+            return true;
         } else {
-        		return false;
+            return false;
         }
     }
 
@@ -52,16 +52,16 @@ public class Conta {
         this.numero = numero;
     }
 
-    public int getAgencia(){
+    public int getAgencia() {
         return this.agencia;
     }
 
     public void setAgencia(int agencia) {
-       if (agencia <= 0) {
-           System.out.println("Nao pode valor menor igual a 0");
-           return;
-       }
-       this.agencia = agencia;
+        if (agencia <= 0) {
+            System.out.println("Nao pode valor menor igual a 0");
+            return;
+        }
+        this.agencia = agencia;
     }
 
     public void setTitular(Cliente titular) {
